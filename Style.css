@@ -10,7 +10,7 @@ body {
   max-width: 100vw;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: #1b1a55;
+  background-color: #282765;
 }
 .container {
   /* background-color: aqua; */
@@ -531,7 +531,7 @@ h3 {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-#para {
+#para1 {
   font-size: 20px;
   color: rgb(164, 164, 7);
   padding: 20px 20px 0px 20px;
@@ -542,7 +542,7 @@ h3 {
   padding: 20px;
 }
 @media (max-width:850px) {
-  #para{
+  #para1{
     font-size: 15px;
   }
   #p {
@@ -550,7 +550,7 @@ h3 {
   }
 }
 @media (max-width:350px) {
-  #para{
+  #para1{
     font-size: 12px;
   }
   #p {
@@ -570,6 +570,14 @@ h3 {
     height: 15px;
     width: 15px;
     border-radius: 8px;
+  }
+}
+@media (max-width:300px) {
+  #para1{
+    font-size: 11px;
+  }
+  #p {
+    font-size: 12px;
   }
 }
 
