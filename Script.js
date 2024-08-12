@@ -1,6 +1,6 @@
 const text = "Web Developer";
 const speed = 100; // Speed in milliseconds
-const repeatCount = 20; // Number of times to repeat the typing effect
+const repeatCount = 30; // Number of times to repeat the typing effect
 
 let index = 0;
 let repeat = 0;
