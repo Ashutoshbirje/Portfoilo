@@ -722,7 +722,7 @@ h2 {
     line-height: 50px;
   }
   .heading{
-    font-size:52px;
+    font-size:45px;
   }
   h2{
     font-size: 30px;
@@ -908,32 +908,25 @@ h2 {
 }
 /* /////////////////Coding Profile/////////////////////// */
 .Coding_Profile {
-  /*background-color: red;
-    position: relative;
-    top:50px; */
   height: 100%;
   background-color: #070f2b;
 }
 .Coding_Profile > h3 {
-  /* background-color: blue; */
   color: white;
   text-align: center;
   padding: 40px;
+  margin-bottom: 20px;
   font-size: 70px;
-}
-.Sub_contain{
-  display: flex;
-  justify-content: center;
 }
 .Coding_Container {
   /* background-color: aqua; */
-  margin: 60px 80px;
-  height: 500px;
+  margin: auto;
   max-width: 900px;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 .Coding_Container > div {
   /* background-color: blue; */
@@ -941,10 +934,18 @@ h2 {
   border-radius: 10px;
 }
 .code_Image {
-  /* background-color: blueviolet; */
+  margin: 15px;
+  border-radius: 5px;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* height: 65%; */
+}
+.code_Image >img{
+  height: 120px;
+  width: 120px;
+  margin: 6px;
   /* height: 65%; */
 }
 #tag {
@@ -956,14 +957,14 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+
   height: 25%;
 }
 .code_Button > div {
   background-color: #9999c1;
   padding: 15px 30px;
   border-radius: 5px;
-  margin: 20px;
+  margin: 15px;
   text-align: center;
   color: #070f2b;
   font-family: "Lexend Deca", sans-serif;
@@ -978,7 +979,42 @@ h2 {
   color: #9999c1;
 }
 
-/* icon */
-.fa-brands{
-  background-color: aqua;
-} 
+@media (max-width: 850px) {
+  .Coding_Profile > h3 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .Coding_Profile {
+    height: auto;
+  }
+  .Coding_Container {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    margin: 10px;
+  }
+  .Coding_Container > div {
+    width: 350px;
+    height: 450px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .code_Button > div {
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 15px;
+  }
+  .Coding_Container > div {
+    margin: 5px 0px;
+    height: auto;
+    width: 250px;
+  }
+  .code_Image>img{
+    height: 150px;
+    width: 150px;
+  }
+}
