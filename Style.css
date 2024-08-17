@@ -634,6 +634,7 @@ h2 {
   font-size: 40px;
   color: white;
 }
+
 .Part_B_2 {
   /* background-color: green; */
   color: white;
@@ -642,6 +643,13 @@ h2 {
   font-style: normal;
   font-size: 15px;
 }
+
+.Part_B_2 > p{
+  /* background-color: green; */
+  font-size: 1.5rem; 
+  color: rgb(202, 223, 242);
+}
+
 .Part_B_3 {
   /* background-color:blueviolet; */
   padding: 0px 0px 10px 0px;
@@ -869,7 +877,11 @@ h2 {
   }
 }
 @media (max-width:520px) {
-
+  .Part_B_2 > p{
+    /* background-color: green; */
+    font-size: 1.3rem; 
+    color: rgb(202, 223, 242);
+  }  
   .right_contain{
     margin: 80px;
     /* background-color: blue; */
