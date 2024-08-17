@@ -690,15 +690,7 @@ h2 {
 .Part_B_4 > img {
   height: 50px;
 }
-.footer_img{
-  /* display: none; */
-  z-index: 1;
-  position: absolute;
-  bottom:52px;
-  background-color: white;
-  height: 50px;
 
-}
 @media (max-width:1130px) {
   .left_contain {
     margin-top: 60px;
@@ -868,6 +860,13 @@ h2 {
   .right_contain {
     /* background-color: red; */
     margin:30px;
+  }
+  .footer_img{
+    z-index: 1;
+    position: absolute;
+    bottom:53px;
+    background-color: white;
+    height: 50px;
   }
 }
 @media (max-width:520px) {
