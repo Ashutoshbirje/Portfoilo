@@ -617,7 +617,6 @@ h3 {
   /* background-color: orange; */
   padding: 0px 0px 20px 0px;
   line-height: 70px;
-  margin-bottom: 5px;
 }
 .heading {
   font-family: "Oswald", sans-serif;
@@ -1146,6 +1145,7 @@ button:hover {
   .Contact_Me > h3 {
     font-size: 40px;
     padding: 20px;
+    margin-bottom: 0px;
   }
   .Contact_Me{
     height: auto;
